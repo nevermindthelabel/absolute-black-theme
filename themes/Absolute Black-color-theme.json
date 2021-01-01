@@ -394,7 +394,8 @@
 			"name": "[JSON] - Support",
 			"scope": "source.json support",
 			"settings": {
-				"foreground": "#ffc600"
+				// "foreground": "#ffc600"
+				"foreground": "#ff0000"
 			}
 		},
 		{

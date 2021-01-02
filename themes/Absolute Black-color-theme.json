@@ -1,7 +1,25 @@
 {
 	"name": "Absolute Black",
 	"type": "dark",
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"function": {
+			"foreground": "#ffc600"
+		},
+		"variable": "#fff",
+		"interface": {
+			// "foreground": "#ff0088",
+			// "foreground": "#≈",
+			"italic": true
+		},
+		"type": {
+			// "foreground": "#ff0088",
+			"foreground": "#FF68B8",
+			"italic": true
+		},
+		// This colours both object definiton properties, as well as references. If the property does not exist, it will be white.
+		"property": "#9effff",
+	},
 	"colors": {
 		// activity bar
 		"activityBar.activeBorder": "#e535ab",
@@ -115,13 +133,13 @@
 				"foreground": "#ff9d00"
 			}
 		},
-		{
-			"name": "Keyword",
-			"scope": "keyword, storage.type.class, keyword.control.default.ts",
-			"settings": {
-				"foreground": "#ff9d00"
-			}
-		},
+		// {
+		// 	"name": "Keyword",
+		// 	"scope": "keyword, storage.type.class, keyword.control.default.ts",
+		// 	"settings": {
+		// 		"foreground": "#ff9d00"
+		// 	}
+		// },
 		{
 			"name": "Meta",
 			"scope": "meta",
@@ -390,12 +408,133 @@
 				"foreground": "#fb94ff"
 			}
 		},
+		// {
+		// 	"name": "[JSON] - Support",
+		// 	"scope": "source.json support",
+		// 	"settings": {
+		// 		// "foreground": "#ffc600"
+		// 		"foreground": "#ff0000"
+		// 	}
+		// },
 		{
-			"name": "[JSON] - Support",
-			"scope": "source.json support",
+			"name": "[JavaScript] Method Declaration",
+			"scope": [
+				"entity.name.function"
+			],
 			"settings": {
-				// "foreground": "#ffc600"
-				"foreground": "#ff0000"
+				"foreground": "#B624E3",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "[JavaScript] Tagged template function",
+			"scope": [
+				"entity.name.function.tagged-template",
+				"keyword.control.export",
+				"keyword.control.import",
+				"keyword.control.default"
+			],
+			"settings": {
+				"foreground": "#19E352",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "[JavaScript] Tagged Template string",
+			"scope": [
+				"string.js.taggedTemplate"
+			],
+			"settings": {
+				"foreground": "#dfddc7",
+				// "fontStyle": "bold"
+			}
+		},
+		{
+			"name": "[JavaScript] Flow",
+			"scope": [
+				"keyword.control.flow"
+			],
+			"settings": {
+				// "foreground": "",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "[JavaScript] Function",
+			"scope": [
+				"meta.function.js"
+			],
+			"settings": {
+				"foreground": "#a3f7bf",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "[JSON] Property values (string)",
+			"scope": "meta.structure.dictionary.value.json string.quoted.double",
+			"settings": {
+				"foreground": "#B624E3"
+			}
+		},
+		{
+			"name": "Strings in JSON values",
+			"scope": [
+				"string.quoted.double.json punctuation.definition.string.json support.type.property-name.json string.json",
+				"meta.structure.array.json.comments",
+				"string.template.js",
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#19E352"
+			}
+		},
+		{
+			"name": "[JSON]",
+			"scope": "constant.language.json.comments",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "[JavaScript] Object Keys",
+			"scope": [
+				"meta.object-literal.key",
+				"variable.other.readwrite.alias.js"
+			],
+			"settings": {
+				"foreground": "#0075f6",
+				// "fontStyle": "bold"
+			}
+		},
+		{
+			"name": "[JavaScript] Object Values",
+			"scope": [
+				"meta.object.member",
+				"string.json.comments"
+			],
+			"settings": {
+				"foreground": "#93deff",
+				// "fontStyle": "bold"
+			}
+		},
+		{
+			"name": "[JavaScript] False",
+			"scope": [
+				"constant.language.boolean.false"
+			],
+			"settings": {
+				"foreground": "#f62a66"
+			}
+		},
+		{
+			"name": "[JavaScript] Constants",
+			"scope": [
+				"variable.other.constant",
+				"keyword.control.if.php"
+			],
+			"settings": {
+				"foreground": "#e535ab",
+				"fontStyle": "bold italic"
 			}
 		},
 		{
@@ -598,6 +737,7 @@
 				"comment",
 				"storage.modifier",
 				"entity.other.attribute-name.js",
+				"keyword.operator.new.js",
 				// "storage.modifier.js",
 				// "storage.modifier.ts",
 				// "storage.modifier.tsx",
@@ -608,6 +748,16 @@
 			],
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Bold",
+			"scope": [
+				"entity.name.type.js new.expr.js meta.var.expr.js source.js"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
 			}
 		},
 		{

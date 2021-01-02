@@ -3,5 +3,6 @@ body {
 }
 
 .test {
-  
+  margin: auto;
+  padding: 20px;
 }

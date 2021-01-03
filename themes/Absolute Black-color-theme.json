@@ -112,13 +112,13 @@
 				"foreground": "#ff628c"
 			}
 		},
-		{
-			"name": "Entity",
-			"scope": "entity",
-			"settings": {
-				"foreground": "#ffc600"
-			}
-		},
+		// {
+		// 	"name": "Entity",
+		// 	"scope": "entity",
+		// 	"settings": {
+		// 		"foreground": "#ffc600"
+		// 	}
+		// },
 		{
 			"name": "Invalid",
 			"scope": "invalid",
@@ -158,20 +158,20 @@
 				"foreground": "#fff"
 			}
 		},
-		{
-			"name": "Meta Brace",
-			"scope": "meta.brace",
-			"settings": {
-				"foreground": "#e1efff"
-			}
-		},
-		{
-			"name": "Punctuation",
-			"scope": "punctuation",
-			"settings": {
-				"foreground": "#e1efff"
-			}
-		},
+		// {
+		// 	"name": "Meta Brace",
+		// 	"scope": "meta.brace",
+		// 	"settings": {
+		// 		"foreground": "#e1efff"
+		// 	}
+		// },
+		// {
+		// 	"name": "Punctuation",
+		// 	"scope": "punctuation",
+		// 	"settings": {
+		// 		"foreground": "#e1efff"
+		// 	}
+		// },
 		{
 			"name": "Punctuation Parameters",
 			"scope": "punctuation.definition.parameters",
@@ -231,7 +231,8 @@
 			"name": "Support Function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#ff9d00"
+				"foreground": "#ff9d00",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -241,13 +242,13 @@
 				"foreground": "#e1efff"
 			}
 		},
-		{
-			"name": "Variable",
-			"scope": "variable",
-			"settings": {
-				"foreground": "#e1efff"
-			}
-		},
+		// {
+		// 	"name": "Variable",
+		// 	"scope": "variable",
+		// 	"settings": {
+		// 		"foreground": "#e1efff"
+		// 	}
+		// },
 		{
 			"name": "[CSS] - Entity",
 			"scope": [
@@ -537,16 +538,16 @@
 				"fontStyle": "bold italic"
 			}
 		},
-		{
-			"name": "[JSON] - String",
-			"scope": [
-				"source.json string",
-				"source.json punctuation.definition.string"
-			],
-			"settings": {
-				"foreground": "#e1efff"
-			}
-		},
+		// {
+		// 	"name": "[JSON] - String",
+		// 	"scope": [
+		// 		"source.json string",
+		// 		"source.json punctuation.definition.string"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#e1efff"
+		// 	}
+		// },
 		{
 			"name": "[MARKDOWN] - Heading Punctuation",
 			"scope": "punctuation.definition.heading.markdown",
@@ -702,6 +703,16 @@
 			}
 		},
 		{
+			"name": "[PHP] Global Variable",
+			"scope": [
+				"source.php variable.other.global.php"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold italic"
+			}
+		}
+		{
 			"name": "[PHP] - Variables",
 			"scope": "variable.other.php",
 			"settings": {
@@ -753,7 +764,7 @@
 		{
 			"name": "Bold",
 			"scope": [
-				"entity.name.type.js new.expr.js meta.var.expr.js source.js"
+				"entity.name.type.js"
 			],
 			"settings": {
 				"foreground": "#FF0000",

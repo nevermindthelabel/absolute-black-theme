@@ -19,4 +19,6 @@ $navItems = array(
     ),
 );
 
+$cookie = $_COOKIE;
+
 ?>

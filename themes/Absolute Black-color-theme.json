@@ -256,14 +256,16 @@
 				"source.stylus entity"
 			],
 			"settings": {
-				"foreground": "#3ad900"
+				"foreground": "#3ad900",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "[CSS] - ID Selector",
 			"scope": "entity.other.attribute-name.id.css",
 			"settings": {
-				"foreground": "#FFB454"
+				"foreground": "#FFB454",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -315,6 +317,13 @@
 			],
 			"settings": {
 				"foreground": "#9effff"
+			}
+		},
+		{
+			"name": "[CSS] Psuedo class",
+			"scope": "entity.other.attribute-name.pseudo-class.css",
+			"settings": {
+				"foreground": "#e535ab"
 			}
 		},
 		{

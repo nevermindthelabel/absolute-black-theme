@@ -347,7 +347,7 @@
 			}
 		},
 		{
-			"name": "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+			"name": "[HTML] - Quotes. these are a slightly different color because expand selection will then not include quotes",
 			"scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
 			"settings": {
 				"foreground": "#92fc79"
@@ -711,7 +711,7 @@
 				"foreground": "#FF0000",
 				"fontStyle": "bold italic"
 			}
-		}
+		},
 		{
 			"name": "[PHP] - Variables",
 			"scope": "variable.other.php",
@@ -749,13 +749,11 @@
 				"storage.modifier",
 				"entity.other.attribute-name.js",
 				"keyword.operator.new.js",
-				// "storage.modifier.js",
-				// "storage.modifier.ts",
-				// "storage.modifier.tsx",
 				"entity.other.attribute-name.js",
 				"entity.other.attribute-name.ts",
 				"entity.other.attribute-name.tsx",
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name.html",
+				"keyword.other.new.php"
 			],
 			"settings": {
 				"fontStyle": "italic"

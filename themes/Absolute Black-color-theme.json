@@ -63,7 +63,7 @@
 		"editor.findMatchBackground": "#5f7e9779",
 		"editor.findMatchHighlightBackground": "#2e3248",
 		// "editor.foreground": "#d6deeb",
-		"editor.hoverHighlightBackground": "#323232",
+		"editor.hoverHighlightBackground": "#9e4177",
 		"editor.inactiveSelectionBackground": "#6633995a",
 		// editor group
 		"editorGroupHeader.tabsBackground": "#000000",

@@ -417,14 +417,6 @@
 				"foreground": "#fb94ff"
 			}
 		},
-		// {
-		// 	"name": "[JSON] - Support",
-		// 	"scope": "source.json support",
-		// 	"settings": {
-		// 		// "foreground": "#ffc600"
-		// 		"foreground": "#ff0000"
-		// 	}
-		// },
 		{
 			"name": "[JavaScript] Method Declaration",
 			"scope": [
@@ -459,16 +451,6 @@
 			}
 		},
 		{
-			"name": "[JavaScript] Flow",
-			"scope": [
-				"keyword.control.flow"
-			],
-			"settings": {
-				// "foreground": "",
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"name": "[JavaScript] Function",
 			"scope": [
 				"meta.function.js"
@@ -482,7 +464,7 @@
 			"name": "[JSON] Property values (string)",
 			"scope": "meta.structure.dictionary.value.json string.quoted.double",
 			"settings": {
-				"foreground": "#B624E3"
+				"foreground": "#e324ba"
 			}
 		},
 		{
@@ -493,7 +475,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#19E352"
+				"foreground": "#63e319"
 			}
 		},
 		{
@@ -792,6 +774,65 @@
 			],
 			"settings": {
 				"foreground": "#ff9100"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.class.css"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag.html"
+			],
+			"settings": {
+				"foreground": "#e535ab"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.custom.start.html entity.name.tag.html",
+				"meta.tag.custom.end.html entity.name.tag.html"
+			],
+			"settings": {
+				"foreground": "#B624E3"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag.begin.html"
+			],
+			"settings": {
+				"foreground": "#ffc600"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.flow",
+				"variable.language.this",
+				"keyword.other.unit.px",
+				"keyword.control.conditional",
+				"keyword.other.unit.rem",
+				"keyword.other.unit.vw"
+			],
+			"settings": {
+				"foreground": "#e41ea2",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.unit.fr",
+				"keyword.other.unit.em",
+				"keyword.other.unit.vh"
+			],
+			"settings": {
+				"foreground": "#b624e3",
+				"fontStyle": "italic"
 			}
 		}
 	]

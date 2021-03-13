@@ -6,6 +6,8 @@ const Mutation = require('./resolvers/Mutations');
 const User = require('./resolvers/User');
 const Link = require('./resolvers/Link');
 const Subscription = require('./resolvers/Subscription');
+let test = 'not a constant';
+var thing = 'a variable';
 
 const resolvers = {
   Query,

@@ -2,7 +2,8 @@
     "name": "absolute-black",
     "displayName": "Absolute Black",
     "description": "A Black Theme",
-    "version": "0.0.1",
+    "publisher": "nevermindthelabel",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.52.0"
     },

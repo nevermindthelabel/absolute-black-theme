@@ -26,4 +26,4 @@ const server = new GraphQLServer({
   }
 });
 
-server.start(() => console.log(`Server is 🏃‍ on http://localhost:4000`));
+server.start(() => console.log(`Server is 省 on http://localhost:4000`));

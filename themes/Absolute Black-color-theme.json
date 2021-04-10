@@ -817,7 +817,8 @@
 				"keyword.other.unit.px",
 				"keyword.control.conditional",
 				"keyword.other.unit.rem",
-				"keyword.other.unit.vw"
+				"keyword.other.unit.vw",
+				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#e41ea2",
@@ -833,6 +834,24 @@
 			"settings": {
 				"foreground": "#b624e3",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "keyword.other.DML.sql",
+			"settings": {
+				"foreground": "#d6a956"
+			}
+		},
+		{
+			"scope": "keyword.other.sql.verb",
+			"settings": {
+				"foreground": "#a53834"
+			}
+		},
+		{
+			"scope": "keyword.other.sql.common",
+			"settings": {
+				"foreground": "#569cd6"
 			}
 		}
 	]

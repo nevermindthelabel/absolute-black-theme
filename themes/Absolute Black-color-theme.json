@@ -206,7 +206,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#a5ff90"
+				// "foreground": "#a5ff90"
 			}
 		},
 		{
@@ -216,7 +216,7 @@
 				"punctuation.definition.string.template"
 			],
 			"settings": {
-				"foreground": "#3ad900"
+				// "foreground": "#3ad900"
 			}
 		},
 		{
@@ -458,31 +458,6 @@
 			"settings": {
 				"foreground": "#a3f7bf",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "[JSON] Property values (string)",
-			"scope": "meta.structure.dictionary.value.json string.quoted.double",
-			"settings": {
-				"foreground": "#e324ba"
-			}
-		},
-		{
-			"name": "Strings in JSON values",
-			"scope": [
-				"string.quoted.double.json punctuation.definition.string.json support.type.property-name.json string.json",
-				"meta.structure.array.json.comments",
-				"support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#63e319"
-			}
-		},
-		{
-			"name": "[JSON]",
-			"scope": "constant.language.json.comments",
-			"settings": {
-				"foreground": "#F92672"
 			}
 		},
 		{
@@ -770,10 +745,21 @@
 		},
 		{
 			"scope": [
-				"string.template.js"
+				"string",
+				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#ff9100"
+				"foreground": "#ffee80"
+			}
+		},
+		{
+			"name": "String Template",
+			"scope": [
+				"string.template",
+				"punctuation.definition.string.template"
+			],
+			"settings": {
+				"foreground": "#97cada"
 			}
 		},
 		{

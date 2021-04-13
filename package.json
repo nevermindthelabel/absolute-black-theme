@@ -3,7 +3,7 @@
   "displayName": "Absolute Black",
   "description": "A Black Theme",
   "publisher": "nevermindthelabel",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.52.0"
   },

@@ -28,4 +28,10 @@ const server = new GraphQLServer({
   }
 });
 
+if (thing) {
+  console.log(test);
+} else {
+  console.log('other thing')
+}
+
 server.start(() => console.log(`Server is 省 on http://localhost:4000`));

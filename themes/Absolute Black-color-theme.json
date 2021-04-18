@@ -6,18 +6,14 @@
 		"function": {
 			"foreground": "#ffc600"
 		},
-		"variable": "#fff",
+		"variable": "#e324b3",
 		"interface": {
-			// "foreground": "#ff0088",
-			// "foreground": "#≈",
 			"italic": true
 		},
 		"type": {
-			// "foreground": "#ff0088",
 			"foreground": "#FF68B8",
 			"italic": true
 		},
-		// This colours both object definiton properties, as well as references. If the property does not exist, it will be white.
 		"property": "#9effff",
 	},
 	"colors": {
@@ -436,8 +432,8 @@
 				"keyword.control.default"
 			],
 			"settings": {
-				"foreground": "#19E352",
-				"fontStyle": "bold italic"
+				"foreground": "#BB19E3",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -464,7 +460,7 @@
 			"name": "[JavaScript] Object Keys",
 			"scope": [
 				"meta.object-literal.key",
-				"variable.other.readwrite.alias.js"
+				"variable.other.readwrite.alias"
 			],
 			"settings": {
 				"foreground": "#0075f6",
@@ -729,7 +725,7 @@
 				"keyword.control.export"
 			],
 			"settings": {
-				"foreground": "#ff9d00",
+				"foreground": "#ff00ea",
 				"fontStyle": "italic"
 			}
 		},
@@ -772,7 +768,7 @@
 		},
 		{
 			"scope": [
-				"entity.name.tag.html"
+				"entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#e535ab"
@@ -789,8 +785,8 @@
 		},
 		{
 			"scope": [
-				"punctuation.definition.tag.end.html",
-				"punctuation.definition.tag.begin.html"
+				"punctuation.definition.tag.end",
+				"punctuation.definition.tag.begin"
 			],
 			"settings": {
 				"foreground": "#ffc600"

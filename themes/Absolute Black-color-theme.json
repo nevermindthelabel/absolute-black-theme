@@ -14,7 +14,7 @@
 			"foreground": "#FF68B8",
 			"italic": true
 		},
-		"property": "#9effff",
+		"property": "#9effff"
 	},
 	"colors": {
 		// activity bar
@@ -49,16 +49,6 @@
 		"editorWhitespace.foreground": "#3B3A32",
 		// color of the active row
 		"editor.lineHighlightBackground": "#161515",
-		"editor.rangeHighlightBackground": "#6633995a",
-		"editor.selectionBackground": "#886767",
-		"editor.selectionHighlightBackground": "#e535aa41",
-		"editor.selectionHighlightBorder": "#e535aa2c",
-		"editor.wordHighlightBackground": "#db0aca4b",
-		"editor.wordHighlightStrongBackground": "#2e3250",
-		"editor.findMatchBackground": "#5f7e9779",
-		"editor.findMatchHighlightBackground": "#2e3248",
-		"editor.hoverHighlightBackground": "#d413844d",
-		"editor.inactiveSelectionBackground": "#6633995a",
 		// editor group
 		"editorGroupHeader.tabsBackground": "#000000",
 		// input
@@ -86,7 +76,7 @@
 		"tab.inactiveBackground": "#000000",
 		"tab.inactiveForeground": "#cccccc",
 		// title bar
-		"titleBar.activeBackground": "#000000",
+		"titleBar.activeBackground": "#000000"
 	},
 	"tokenColors": [
 		{
@@ -442,7 +432,7 @@
 				"string.js.taggedTemplate"
 			],
 			"settings": {
-				"foreground": "#dfddc7",
+				"foreground": "#dfddc7"
 				// "fontStyle": "bold"
 			}
 		},
@@ -463,8 +453,8 @@
 				"variable.other.readwrite.alias"
 			],
 			"settings": {
-				"foreground": "#0075f6",
-				// "fontStyle": "bold"
+				"foreground": "#ffda32",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -474,7 +464,7 @@
 				"string.json.comments"
 			],
 			"settings": {
-				"foreground": "#93deff",
+				"foreground": "#93deff"
 				// "fontStyle": "bold"
 			}
 		},
